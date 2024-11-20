@@ -1,0 +1,5 @@
+:root {
+    --background-image: url(../images/background/background.png);
+    --buttons-color: #25975A;
+    --buttons-active-color: white;
+}

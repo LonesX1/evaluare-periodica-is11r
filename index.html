@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ep</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body>
+    <div class="wrapper d-flex">
+        <aside class="setting_menu">
+            <header class="setting_menu-header">
+                <div class="title_setting-menu">
+                    <h4>Orarul Cursului</h4>
+                </div>
+                <nav>
+                    <button class="nav_button active">Grupe</button>
+                    <button class="nav_button">Profesori</button>
+                    <button class="nav_button">Aule</button>
+                </nav>
+                <div class="mode">
+                    <span>Regim pentru studenti</span>
+                    <label for="mode_student">
+                        <input id="mode_student" type="checkbox">
+                        <span class="slider">
+                        </span>
+                    </label>
+                </div>
+            </header>
+            <main>
+                <section class="setting_menu-search">
+                    <div class="search">
+                        <img src="./images/icons/search.svg" alt="search_icon">
+                        <input type="text">
+                    </div>
+                    <div class="search_result">
+                        <div class="search_result-item">
+                            101
+                        </div>
+                        <div class="search_result-item">
+                            102
+                        </div>
+                        <div class="search_result-item">
+                            103
+                        </div>
+                        <div class="search_result-item">
+                            104
+                        </div>
+                        <div class="search_result-item">
+                            104
+                        </div>
+                        <div class="search_result-item">
+                            104
+                        </div>
+                    </div>
+                </section>
+                <section class="setting_menu-data">
+                    <select class="week-select">
+                        <option value="luni">Luni</option>
+                        <option value="marti">Marti</option>
+                        <option value="miercuri">Miercuri</option>
+                        <option value="joi">Joi</option>
+                    </select>
+                    <select class="week-select">
+                        <option value="-1">Săptămîna</option>
+                        <option value="9" class="initial">9 (28.10.2024 - 3.11.2024)</option>
+                        <option value="10" class="initial">10 (4.11.2024 - 10.11.2024)</option>
+                        <option value="11" class="initial">11 (11.11.2024 - 17.11.2024)</option>
+                        <option selected="selected" value="12" class="initial">12 (18.11.2024 - 24.11.2024)</option>
+                        <option value="13" class="initial">13 (25.11.2024 - 1.12.2024)</option>
+                        <option value="14" class="initial">14 (2.12.2024 - 8.12.2024)</option>
+                        <option value="15" class="initial">15 (9.12.2024 - 15.12.2024)</option>
+                        <option value="16" class="initial">16 (16.12.2024 - 22.12.2024)</option>
+                        <option value="17" class="initial">17 (23.12.2024 - 29.12.2024)</option>
+                        <option value="22" class="initial">22 (27.1.2025 - 2.2.2025)</option>
+                    </select>
+                </section>
+                <section class="setting_menu-result_search-orar">
+                    <div class="container_result-orar">
+                        <div class="days">
+                            <div class="days_item"></div>
+                            <div class="days_item">1</div>
+                            <div class="days_item">2</div>
+                            <div class="days_item">3</div>
+                            <div class="days_item">4</div>
+                            <div class="days_item">5</div>
+                            <div class="days_item">6</div>
+                            <div class="days_item">7</div>
+                        </div>
+                        <div class="days_letter">
+                            <div class="days_letter-item">L</div>
+                            <div class="days_letter-item">Ma</div>
+                            <div class="days_letter-item">Mi</div>
+                            <div class="days_letter-item">J</div>
+                            <div class="days_letter-item">V</div>
+                            <div class="days_letter-item">S</div>
+                            <div class="days_letter-item">D</div>
+                        </div>
+                        <div class="grid_orar">
+                            <div class="row_orar">
+                                <div class="row_orar-item laborator">L</div>
+                                <div class="row_orar-item prelegeri">P</div>
+                                <div class="row_orar-item seminar">S</div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item laborator">L</div>
+                                <div class="row_orar-item prelegeri">P</div>
+                                <div class="row_orar-item seminar">S</div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item laborator">L</div>
+                                <div class="row_orar-item prelegeri">P</div>
+                                <div class="row_orar-item seminar">S</div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item laborator">L</div>
+                                <div class="row_orar-item prelegeri">P</div>
+                                <div class="row_orar-item seminar">S</div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                            <div class="row_orar">
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                                <div class="row_orar-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="table_legends">
+                    <p>P - Prelegere</p>
+                    <p>S - Seminar</p>
+                    <p>L - Laborator</p>
+                    <p>PC - Proiect de Curs</p>
+                    <p>EP - Evaluare periodică</p>
+                    <p>C - Consultație</p>
+                    <p>E - Examinare</p>
+                    <p>R - Reexaminare</p>
+                    <p>SP - Seminar prealabil</p>
+                    <p>ST - Seminar de totalizare</p>
+                </div>
+
+                <section class="container_label">
+                    <div class="label_download">
+                        <a
+                            href="http://orar.usarb.md/download/?gr=526&amp;sem=1&amp;day=3&amp;week=12&amp;grName=IS21R&amp;mode=students&amp;pdfWeek%5B%5D=18.11.2024&amp;pdfWeek%5B%5D=24.11.2024">
+                            Descarcă orar
+                            <img src="./images/icons/pdf.svg" alt="pdf file">
+                        </a>
+                    </div>
+                    <div class="label_download examene">
+                        <a
+                            href="http://orar.usarb.md/download/?gr=526&amp;sem=1&amp;day=3&amp;week=12&amp;grName=IS21R&amp;mode=students&amp;pdfWeek%5B%5D=18.11.2024&amp;pdfWeek%5B%5D=24.11.2024">
+                            Examene
+                            <img src="./images/icons/print.svg" alt="pdf file">
+                        </a>
+                    </div>
+                    <div class="label_download planificare">
+                        <a
+                            href="http://orar.usarb.md/download/?gr=526&amp;sem=1&amp;day=3&amp;week=12&amp;grName=IS21R&amp;mode=students&amp;pdfWeek%5B%5D=18.11.2024&amp;pdfWeek%5B%5D=24.11.2024">
+                            Planificare
+                            <img src="./images/icons/bd.svg" alt="pdf file">
+                        </a>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer_aside">
+                Serviciul este inactiv între ore 23:00 și 3:00
+            </footer>
+        </aside>
+
+        <section class="orar_menu">
+            <header class="header_orar">
+                <div class="logo_usarb">
+                    <img src="./images/logo/logo_usarb.png" alt="">
+                </div>
+                <h3>UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</h3>
+            </header>
+            <section class="tabble_for_lessons">
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        8:00
+                        <br>
+                        9:30
+                    </div>
+                    <div class="lesson_info"></div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        9:45
+                        <br>
+                        11:15
+                    </div>
+                    <div class="lesson_info">
+                        <div>
+                            <strong> Proiectarea paginilor WEB</strong>
+                            <p> Laborator (Sb. 2)</p>
+                            <p> asist. univ.Chilat S.</p><strong> aud. 146</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        11:30
+                        <br>
+                        13:00
+                    </div>
+                    <div class="lesson_info">
+                        <div>
+                            <strong> Proiectarea paginilor WEB</strong>
+                            <p> Laborator (Sb. 2)</p>
+                            <p> asist. univ.Chilat S.</p><strong> aud. 146</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        13:15
+                        <br>
+                        14:45
+                    </div>
+                    <div class="lesson_info"></div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        15:00
+                        <br>
+                        16:30
+                    </div>
+                    <div class="lesson_info"></div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        16:45
+                        <br>
+                        18:15
+                    </div>
+                    <div class="lesson_info"></div>
+                </div>
+                <div class="tabble_for_lessons-item">
+                    <div class="time_lessons">
+                        18:30
+                        <br>
+                        20:00
+                    </div>
+                    <div class="lesson_info"></div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+
+</html>
